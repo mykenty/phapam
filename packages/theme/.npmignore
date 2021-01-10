@@ -1,0 +1,10 @@
+*.ts
+!*.d.ts
+
+!util/*.ts
+
+# Test Files
+__tests__/
+
+# Typescript Config files
+tsconfig.*

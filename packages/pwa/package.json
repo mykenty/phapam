@@ -1,0 +1,47 @@
+{
+  "name": "@mr-hope/vuepress-plugin-pwa",
+  "version": "1.8.1",
+  "description": "Powerful PWA plugin for vuepress",
+  "keywords": [
+    "vuepress-plugin",
+    "pwa",
+    "web app",
+    "workbox",
+    "service worker"
+  ],
+  "homepage": "https://vuepress-pwa.mrhope.site",
+  "bugs": {
+    "url": "https://github.com/Mister-Hope/vuepress-theme-hope/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mister-Hope/vuepress-theme-hope.git",
+    "directory": "packages/pwa"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Ken Trinh",
+    "email": "zhangbowang1998@gmail.com",
+    "url": "https://mrhope.site"
+  },
+  "main": "lib/node/index.js",
+  "types": "lib/types/index.d.ts",
+  "scripts": {
+    "build": "tsc -b tsconfig.json",
+    "clean": "rimraf lib *.tsbuildinfo",
+    "copy": "cpx \"src/**/*.{d.ts,js,vue,styl}\" lib",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@mr-hope/vuepress-shared": "^1.8.1",
+    "@mr-hope/vuepress-types": "^1.8.1",
+    "@types/fs-extra": "^9.0.6",
+    "chalk": "^4.1.0",
+    "fs-extra": "^9.0.1",
+    "register-service-worker": "^1.7.2",
+    "workbox-build": "^6.0.2"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

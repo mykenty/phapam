@@ -1,0 +1,21 @@
+{
+  "name": "phap.to",
+  "version": "1.8.1",
+  "private": true,
+  "description": "Tests for vuepress-theme-hope",
+  "license": "MIT",
+  "author": "Ken Trinh",
+  "scripts": {
+    "build": "vuepress build src",
+    "clean-serve": "vuepress dev src --no-cache",
+    "eject": "vuepress eject-hope src",
+    "serve": "vuepress dev src"
+  },
+  "dependencies": {
+    "vuepress-plugin-font-awesome": "^1.90.6"
+  },
+  "devDependencies": {
+    "vuepress": "1.8.0",
+    "vuepress-theme-hope": "^1.8.1"
+  }
+}
