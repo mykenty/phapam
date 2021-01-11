@@ -10,7 +10,7 @@ comment: true
 
 # Chú Đại Bi
 
-Thiên thủ thiên nhãn vô ngại đại bi tâm đà la ni
+### Thiên thủ thiên nhãn vô ngại đại bi tâm đà la ni
 
 ```md
 Nam mô hắc ra đát na đa ra dạ da
@@ -36,9 +36,11 @@ Lô ca đế
 Ca ra đế
 Di hê rị
 Ma ha bồ đề tát đỏa
-Tát bà tát bà 25. Ma ra ma ra
+Tát bà tát bà
+Ma ra ma ra
 Ma hê ma hê rị đà dựng
-Cu lô cu lô yết mông 28. Độ lô độ lô phạt xà da đế
+Cu lô cu lô yết mông
+Độ lô độ lô phạt xà da đế
 Ma ha phạt xà da đế
 Đà ra đà ra
 Địa rị ni
@@ -49,11 +51,29 @@ Mục đế lệ
 Y hê di hê
 Thất na thất na
 A Ra sâm Phật ra xá lợi
-Phạt sa phạt sâm 40. Phật ra xá da 41. Hô lô hô lô ma ra 42. Hô lô hô lô hê rị
-Ta ra ta ra 44. Tất rị tất rị
-Tô rô tô rô 46. Bồ Đề dạ Bồ Đề dạ 47. Bồ đà dạ bồ đà dạ
-Di đế rị dạ 49. Na ra cẩn trì
-Địa rị sắc ni na 51. Ba dạ ma na 52. Ta bà ha
-Tất đà dạ 54. Ta bà ha 55. Ma ha tất đà dạ 56. Ta bà ha 57. Tất đà du nghệ 58. Thất bàn ra dạ 59. Ta bà ha 60. Na ra cẩn trì 61. Ta bà ha 62. Ma ra na ra 63. Ta bà ha 64. Tất ra tăng a mục khê da 65. Ta bà ha 66. Ta bà ma ha a tất đà dạ 67. Ta bà ha 68. Giả kiết ra a tất đà dạ 69. Ta bà ha 70. Ba đà ma kiết tất đà dạ 71. Ta bà ha 72. Na ra cẩn trì bàn đà ra dạ 73. Ta bà ha 74. Ma bà rị thắng yết ra dạ 75. Ta bà ha 76. Nam mô hắc ra đát na đa ra dạ da 77. Nam mô a rị da 78. Bà lô kiết đế 79. Thước bàn ra dạ 80. Ta bà ha 81. Án. Tất điện đô 82. Mạn đà ra 83. Bạt đà gia
+Phạt sa phạt sâm
+Phật ra xá da
+Hô lô hô lô ma ra
+Hô lô hô lô hê rị
+Ta ra ta ra
+Tất rị tất rị
+Tô rô tô rô
+Bồ Đề dạ Bồ Đề dạ
+Bồ đà dạ bồ đà dạ
+Di đế rị dạ
+Na ra cẩn trì
+Địa rị sắc ni na
+Ba dạ ma na
+Ta bà ha
+Tất đà dạ
+Ta bà ha
+Ma ha tất đà dạ
+Ta bà ha
+Tất đà du nghệ
+Thất bàn ra dạ
+Ta bà ha 60. Na ra cẩn trì 61. Ta bà ha 62. Ma ra na ra 63. Ta bà ha 64. Tất ra tăng a mục khê da 65. Ta bà ha 66. Ta bà ma ha a tất đà dạ 67. Ta bà ha 68. Giả kiết ra a tất đà dạ 69. Ta bà ha 70. Ba đà ma kiết tất đà dạ 71. Ta bà ha 72. Na ra cẩn trì bàn đà ra dạ 73. Ta bà ha 74. Ma bà rị thắng yết ra dạ
+Ta bà ha 76. Nam mô hắc ra đát na đa ra dạ da
+Nam mô a rị da 78. Bà lô kiết đế 79. Thước bàn ra dạ 80. Ta bà ha 81. Án. Tất điện đô
+Mạn đà ra 83. Bạt đà gia
 Ta bà ha.
 ```
