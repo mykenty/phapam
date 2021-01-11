@@ -4,7 +4,7 @@ module.exports = config({
   title: "Phap.To | Phật pháp, tụng Kinh, trì Chú",
   description: "Website dành cho Phật tử",
 
-  dest: "./dist",
+  dest: "../public",
 
   head: [
     [
