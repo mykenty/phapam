@@ -27,7 +27,7 @@ project:
     desc: Detailed description of the article
     link: link to your article
 
-footer: customize your footer text
+footer: Website dành cho Phật Tử
 ---
 
 For related configuration documents, please see [blog homepage](https://vuepress-theme.mrhope.site/guide/layout/blog/)
