@@ -12,7 +12,7 @@ action:
   - text: Config 🛠
     link: /config/
 
-footer: MIT Licensed | Copyright © 2019-present Ken Trinh
+footer: MIT Licensed | Copyright © 2019-present Đức Thành
 copyrightText: false
 ---
 

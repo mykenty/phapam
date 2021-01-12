@@ -5,7 +5,7 @@
 <h1 align="center">vuepress-plugin-md-enhance</h1>
 <h4 align="center">Markdown enhancement plugin📄 / Markdown 增强插件📄</h4>
 
-[![Author: Ken Trinh](https://img.shields.io/badge/Author-Ken Trinh-blue.svg?style=for-the-badge)](https://mrhope.site)
+[![Author: Đức Thành](https://img.shields.io/badge/Author-Đức Thành-blue.svg?style=for-the-badge)](https://mrhope.site)
 
 <!-- markdownlint-restore -->
 

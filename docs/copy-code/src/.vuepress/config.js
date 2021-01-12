@@ -18,7 +18,7 @@ module.exports = config({
     /** 网站的logo */
     logo: "/logo.svg",
 
-    author: "Ken Trinh",
+    author: "Đức Thành",
     iconPrefix: "vuepress-",
 
     nav: [
@@ -37,7 +37,7 @@ module.exports = config({
 
     footer: {
       display: true,
-      copyright: "MIT Licensed | Copyright © 2019-present Ken Trinh",
+      copyright: "MIT Licensed | Copyright © 2019-present Đức Thành",
     },
 
     mdEnhance: {

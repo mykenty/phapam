@@ -1,6 +1,6 @@
 ---
 time: 2020-01-01
-author: Ken Trinh
+author: Đức Thành
 category: Category
 tags:
   - Tag1

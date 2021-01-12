@@ -104,7 +104,7 @@ $$
 ::: demo A normal demo
 
 ```html
-<h1>Ken Trinh</h1>
+<h1>Đức Thành</h1>
 <p>Is <span id="very">very</span> handsome</p>
 ```
 

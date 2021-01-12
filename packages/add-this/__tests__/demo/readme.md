@@ -4,7 +4,7 @@ title: vuepress-plugin-add-this
 heroImage: /logo.svg
 heroText: vuepress-plugin-add-this
 tagline: 为 VuePress 提供 add this 支持
-footer: MIT Licensed | Copyright © 2019-present Ken Trinh
+footer: MIT Licensed | Copyright © 2019-present Đức Thành
 ---
 
 ## 使用插件

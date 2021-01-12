@@ -56,12 +56,12 @@ module.exports = config({
       "/": ["", "guide/", "config"],
     },
 
-    author: "Ken Trinh",
+    author: "Đức Thành",
     iconPrefix: "vuepress-",
 
     footer: {
       display: true,
-      copyright: "MIT Licensed | Copyright © 2019-present Ken Trinh",
+      copyright: "MIT Licensed | Copyright © 2019-present Đức Thành",
     },
 
     mdEnhance: {

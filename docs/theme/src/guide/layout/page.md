@@ -115,7 +115,7 @@ Custom footer content and copyright information and media links:
 
 ```md
 ---
-footer: <a href="https://github.com/Mister-Hope"> Ken Trinh </a>
+footer: <a href="https://github.com/Mister-Hope"> Đức Thành </a>
 copyrightText: MIT LICENSE
 medialink:
   Zhihu: https://zhihu.com

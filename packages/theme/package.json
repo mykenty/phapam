@@ -19,9 +19,9 @@
   },
   "license": "MIT",
   "author": {
-    "name": "Ken Trinh",
-    "email": "zhangbowang1998@gmail.com",
-    "url": "https://mrhope.site"
+    "name": "A Di Đà Phật",
+    "email": "trinhkhoa@gmail.com",
+    "url": "http://www.phapam.net"
   },
   "main": "index.js",
   "types": "types/index.d.ts",

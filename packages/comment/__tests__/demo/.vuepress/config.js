@@ -24,7 +24,7 @@ module.exports = {
       "@mr-hope/comment",
       {
         type: "valine",
-        author: "Ken Trinh",
+        author: "Đức Thành",
         appId: "GG2VSnGiz09Rx18y2OUzdaHS-gzGzoHsz",
         appKey: "fBf2dptTBHxNqALKrzUlBXeB",
       },

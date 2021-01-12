@@ -5,7 +5,7 @@ icon: home
 heroImage: /logo.svg
 heroText: "@mr-hope/vuepress-plugin-last-update"
 tagline: 最后更新时间插件
-footer: MIT Licensed | Copyright © 2019-present Ken Trinh
+footer: MIT Licensed | Copyright © 2019-present Đức Thành
 copyrightText: false
 ---
 

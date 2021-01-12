@@ -1,8 +1,8 @@
 const { config } = require("vuepress-theme-hope");
 
 module.exports = config({
-  title: "Phap.To | Phật pháp, tụng Kinh, trì Chú",
-  description: "Website dành cho Phật tử",
+  title: "Pháp Âm | Kinh Chú, Công phu online",
+  description: "Website dành cho Phật Tử",
 
   dest: "./dist",
 
@@ -25,29 +25,29 @@ module.exports = config({
     ],
   ],
 
-  locales: {
-    "/zh/": {
-      title: "Phap.To | Phật pháp, tụng Kinh, trì Chú",
-      description: "vuepress-theme-hope 的 demo",
-    },
-  },
+  // locales: {
+  //   "/zh/": {
+  //     title: "Pháp Âm | Kinh Chú, Công phu online",
+  //     description: "vuepress-theme-hope 的 demo",
+  //   },
+  // },
 
   themeConfig: {
     logo: "/logo.svg",
-    hostname: "https://vuepress-theme-demo.mrhope.site/",
+    hostname: "http://www.phamam.net",
 
     nav: [
-      { text: "Blog Home", link: "/", icon: "home" },
-      { text: "Project Home", link: "/home/", icon: "home" },
+      { text: "Trang chủ", link: "/", icon: "home" },
+      { text: "Công phu", link: "/home/", icon: "context" },
       {
-        text: "Guide",
-        icon: "creative",
+        text: "Kinh - Chú",
         link: "/guide/",
+        icon: "note",
       },
       {
-        text: "Docs",
-        link: "https://vuepress-theme.mrhope.site/",
-        icon: "note",
+        text: "Video",
+        icon: "app",
+        link: "/guide/",
       },
     ],
 
@@ -72,53 +72,51 @@ module.exports = config({
       ],
     },
 
-    locales: {
-      "/zh/": {
-        nav: [
-          { text: "博客主页", link: "/zh/", icon: "home" },
-          { text: "项目主页", link: "/zh/home/", icon: "home" },
-          {
-            text: "如何使用",
-            icon: "creative",
-            link: "/zh/guide/",
-          },
-          {
-            text: "主题文档",
-            icon: "note",
-            link: "https://vuepress-theme.mrhope.site/zh/",
-          },
-        ],
-        sidebar: {
-          "/zh/": [
-            "",
-            "home",
-            "slides",
-            {
-              title: "如何使用",
-              icon: "creative",
-              prefix: "guide/",
-              children: [
-                "",
-                "dai-bi-thap-chu",
-                "page",
-                "markdown",
-                "disable",
-                "encrypt",
-              ],
-            },
-          ],
-        },
-      },
-    },
+    // locales: {
+    //   "/zh/": {
+    //     nav: [
+    //       { text: "博客主页", link: "/zh/", icon: "home" },
+    //       { text: "项目主页", link: "/zh/home/", icon: "home" },
+    //       {
+    //         text: "如何使用",
+    //         icon: "creative",
+    //         link: "/zh/guide/",
+    //       },
+    //       {
+    //         text: "主题文档",
+    //         icon: "note",
+    //         link: "https://vuepress-theme.mrhope.site/zh/",
+    //       },
+    //     ],
+    //     sidebar: {
+    //       "/zh/": [
+    //         "",
+    //         "home",
+    //         "slides",
+    //         {
+    //           title: "如何使用",
+    //           icon: "creative",
+    //           prefix: "guide/",
+    //           children: [
+    //             "",
+    //             "dai-bi-thap-chu",
+    //             "page",
+    //             "markdown",
+    //             "disable",
+    //             "encrypt",
+    //           ],
+    //         },
+    //       ],
+    //     },
+    //   },
+    // },
 
-    author: "Ken Trinh",
+    author: "Đức Thành",
 
     blog: {
       intro: "/intro/",
       sidebarDisplay: "mobile",
       links: {
-        Zhihu: "https://zhihu.com",
-        Baidu: "https://baidu.com",
         Github: "https://github.com",
       },
     },
@@ -218,7 +216,7 @@ module.exports = config({
       timezone: "Asia/Shanghai",
     },
 
-    repo: "https://github.com/mister-hope/vuepress-theme-hope",
-    repoLabel: "Github",
+    // repo: "https://github.com/mister-hope/vuepress-theme-hope",
+    // repoLabel: "Github",
   },
 });

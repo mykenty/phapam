@@ -45,7 +45,7 @@ features:
     details: You can insert presentation in markdown files directly
     link: /guide/presentation/
 
-footer: MIT Licensed | Copyright © 2019-present Ken Trinh
+footer: MIT Licensed | Copyright © 2019-present Đức Thành
 copyrightText: false
 ---
 

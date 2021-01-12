@@ -5,7 +5,7 @@ icon: home
 heroImage: /logo.svg
 heroText: "@mr-hope/vuepress-plugin-reading-time"
 tagline: 字数与阅读时间统计
-footer: MIT Licensed | Copyright © 2019-present Ken Trinh
+footer: MIT Licensed | Copyright © 2019-present Đức Thành
 copyrightText: false
 ---
 

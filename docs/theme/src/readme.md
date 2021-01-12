@@ -57,7 +57,7 @@ features:
     details: Turn on TypeScript support for your VuePress
     link: /guide/feature/typescript/
 
-footer: MIT Licensed | Copyright © 2019-present Ken Trinh
+footer: MIT Licensed | Copyright © 2019-present Đức Thành
 copyrightText: false
 ---
 

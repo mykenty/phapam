@@ -214,7 +214,7 @@ Available CSS languages:
 ::: demo A normal demo
 
 ```html
-<h1>Ken Trinh</h1>
+<h1>Đức Thành</h1>
 <p>Is <span id="very">very</span> handsome</p>
 ```
 
@@ -236,7 +236,7 @@ span {
 ::: demo A normal demo
 
 ```html
-<h1>Ken Trinh</h1>
+<h1>Đức Thành</h1>
 <p>Is <span id="very">very</span> handsome</p>
 ```
 
@@ -266,7 +266,7 @@ export default class App extends React.Component {
   render() {
     return (
       <div className="box-react">
-        Ken Trinh is <span>{this.state.message}</span>
+        Đức Thành is <span>{this.state.message}</span>
       </div>
     );
   }
@@ -293,7 +293,7 @@ export default class App extends React.Component {
   render() {
     return (
       <div className="box-react">
-        Ken Trinh is <span>{this.state.message}</span>
+        Đức Thành is <span>{this.state.message}</span>
       </div>
     );
   }
@@ -314,7 +314,7 @@ export default class App extends React.Component {
 ```vue
 <template>
   <div class="box-vue">
-    Ken Trinh is <span>{{ message }}</span>
+    Đức Thành is <span>{{ message }}</span>
   </div>
 </template>
 <script>
@@ -337,7 +337,7 @@ export default {
 ```vue
 <template>
   <div class="box-vue">
-    Ken Trinh is <span>{{ message }}</span>
+    Đức Thành is <span>{{ message }}</span>
   </div>
 </template>
 <script>
@@ -364,7 +364,7 @@ is very handsome.
 ```
 
 ```ts
-const message: string = "Ken Trinh";
+const message: string = "Đức Thành";
 
 document.querySelector("h1").innerHTML = message;
 ```
@@ -391,7 +391,7 @@ is very handsome.
 ```
 
 ```ts
-const message: string = "Ken Trinh";
+const message: string = "Đức Thành";
 
 document.querySelector("h1").innerHTML = message;
 ```

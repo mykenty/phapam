@@ -5,9 +5,9 @@
   "description": "Docs for vuepress-plugin-add-this",
   "license": "MIT",
   "author": {
-    "name": "Ken Trinh",
-    "email": "zhangbowang1998@gmail.com",
-    "url": "https://mrhope.site"
+    "name": "Đức Thành",
+    "email": "trinhkhoa@gmail.com",
+    "url": "https://phapam.net"
   },
   "scripts": {
     "build": "vuepress build src",

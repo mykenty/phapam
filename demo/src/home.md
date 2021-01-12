@@ -3,7 +3,7 @@ home: true
 icon: home
 title: Project homepage demo
 heroImage: /logo.svg
-heroText: Project name
+heroText: Công phu
 tagline: You can place the description of the project here.
 action:
   - text: How to Use
@@ -58,9 +58,7 @@ features:
     link: https://vuepress-theme.mrhope.site/guide/feature/typescript/
 
 copyrightText: false
-footer: MIT Licensed | Copyright © 2019-present Mr. Hope
+footer: Copyright © Website cho Phật Tử
 ---
 
 This is an example of a normal homepage. You can place your main content here.
-
-For related descriptions of configuration items, please see [Home Page Layout Configuration](https://vuepress-theme.mrhope.site/guide/layout/home/).

@@ -112,7 +112,7 @@ describe("Test resolveTheme function", () => {
       },
 
       /** 默认作者 */
-      author: "Ken Trinh",
+      author: "Đức Thành",
 
       /** 图标前缀 */
       iconPrefix: "vuepress-",

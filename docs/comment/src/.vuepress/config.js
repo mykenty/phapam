@@ -5,9 +5,9 @@ module.exports = config({
   description: "Comment Plugin for VuePress",
   dest: "./dist",
 
-  locales: {
-    "/zh/": { title: "评论插件", description: "VuePress 的评论插件" },
-  },
+  // locales: {
+  //   "/zh/": { title: "评论插件", description: "VuePress 的评论插件" },
+  // },
 
   themeConfig: {
     logo: "/logo.svg",
@@ -70,12 +70,12 @@ module.exports = config({
       "/": ["", "guide/", "config/"],
     },
 
-    author: "Ken Trinh",
+    author: "Đức Thành",
     iconPrefix: "vuepress-",
 
     footer: {
       display: true,
-      copyright: "MIT Licensed | Copyright © 2019-present Ken Trinh",
+      copyright: "MIT Licensed | Copyright © 2019-present Đức Thành",
     },
 
     mdEnhance: {
@@ -88,63 +88,63 @@ module.exports = config({
       appKey: "fBf2dptTBHxNqALKrzUlBXeB",
     },
 
-    locales: {
-      "/zh/": {
-        nav: [
-          { text: "主页", icon: "home", link: "/zh/" },
-          {
-            text: "指南",
-            icon: "creative",
-            items: [
-              {
-                text: "页面信息",
-                icon: "info",
-                link: "/zh/guide/page-info/",
-              },
-              { text: "Valine", icon: "valine", link: "/zh/guide/valine/" },
-              { text: "Vssue", icon: "vssue", link: "/zh/guide/vssue/" },
-            ],
-          },
-          {
-            text: "配置",
-            icon: "config",
-            items: [
-              { text: "配置", icon: "config", link: "/zh/config/" },
-              { text: "Valine", icon: "valine", link: "/zh/config/valine/" },
-              { text: "Vssue", icon: "vssue", link: "/zh/config/vssue/" },
-            ],
-          },
-        ],
+    // locales: {
+    //   "/zh/": {
+    //     nav: [
+    //       { text: "主页", icon: "home", link: "/zh/" },
+    //       {
+    //         text: "指南",
+    //         icon: "creative",
+    //         items: [
+    //           {
+    //             text: "页面信息",
+    //             icon: "info",
+    //             link: "/zh/guide/page-info/",
+    //           },
+    //           { text: "Valine", icon: "valine", link: "/zh/guide/valine/" },
+    //           { text: "Vssue", icon: "vssue", link: "/zh/guide/vssue/" },
+    //         ],
+    //       },
+    //       {
+    //         text: "配置",
+    //         icon: "config",
+    //         items: [
+    //           { text: "配置", icon: "config", link: "/zh/config/" },
+    //           { text: "Valine", icon: "valine", link: "/zh/config/valine/" },
+    //           { text: "Vssue", icon: "vssue", link: "/zh/config/vssue/" },
+    //         ],
+    //       },
+    //     ],
 
-        sidebar: {
-          "/zh/guide/": [
-            "",
-            "page-info",
-            "valine",
-            {
-              title: "Vssue",
-              icon: "vssue",
-              children: [
-                "vssue",
-                {
-                  title: "支持平台",
-                  icon: "support",
-                  children: [
-                    "supported-platforms",
-                    "github",
-                    "gitlab",
-                    "gitee",
-                    "bitbucket",
-                  ],
-                },
-              ],
-            },
-          ],
-          "/zh/config/": ["", "valine", "vssue"],
-          "/zh/": ["", "guide/", "config/"],
-        },
-      },
-    },
+    //     sidebar: {
+    //       "/zh/guide/": [
+    //         "",
+    //         "page-info",
+    //         "valine",
+    //         {
+    //           title: "Vssue",
+    //           icon: "vssue",
+    //           children: [
+    //             "vssue",
+    //             {
+    //               title: "支持平台",
+    //               icon: "support",
+    //               children: [
+    //                 "supported-platforms",
+    //                 "github",
+    //                 "gitlab",
+    //                 "gitee",
+    //                 "bitbucket",
+    //               ],
+    //             },
+    //           ],
+    //         },
+    //       ],
+    //       "/zh/config/": ["", "valine", "vssue"],
+    //       "/zh/": ["", "guide/", "config/"],
+    //     },
+    //   },
+    // },
     pwa: {
       favicon: "/favicon.ico",
       themeColor: "#46bd87",

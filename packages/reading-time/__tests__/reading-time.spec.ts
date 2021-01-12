@@ -8,12 +8,12 @@ describe("Reading Time Test", () => {
     expect(getChinese("春眠不觉晓，处处闻啼鸟。").length).toEqual(10);
 
     expect(
-      getWordNumber("\n Ken Trinh is handsome, and he is a great man.")
+      getWordNumber("\n Đức Thành is handsome, and he is a great man.")
     ).toEqual(9);
 
     expect(
       getWordNumber(
-        "\n Ken Trinh ! is #$%^&* handsome, and %^&* he is a great man."
+        "\n Đức Thành ! is #$%^&* handsome, and %^&* he is a great man."
       )
     ).toEqual(9);
 
@@ -21,7 +21,7 @@ describe("Reading Time Test", () => {
 
     expect(
       getWordNumber(
-        "  春眠不觉晓，处处闻啼鸟。\n   Ken Trinh is handsome, and he is a great man."
+        "  春眠不觉晓，处处闻啼鸟。\n   Đức Thành is handsome, and he is a great man."
       )
     ).toEqual(19);
   });
@@ -29,7 +29,7 @@ describe("Reading Time Test", () => {
   it("Reading Time", () => {
     expect(
       readingTime(
-        "\n Ken Trinh ! is #$%^&* handsome, and %^&* he is a great man."
+        "\n Đức Thành ! is #$%^&* handsome, and %^&* he is a great man."
       )
     ).toEqual({
       minutes: 0.03,
@@ -43,7 +43,7 @@ describe("Reading Time Test", () => {
 
     expect(
       readingTime(
-        "  春眠不觉晓，处处闻啼鸟。\n   Ken Trinh is handsome, and he is a great man."
+        "  春眠不觉晓，处处闻啼鸟。\n   Đức Thành is handsome, and he is a great man."
       )
     ).toEqual({
       minutes: 0.06,
@@ -52,7 +52,7 @@ describe("Reading Time Test", () => {
 
     expect(
       readingTime(
-        "\n  春眠不觉晓，处处闻啼鸟。\n   Ken Trinh is handsome, and he is a great man.\n  春眠不觉晓，处处闻啼鸟。\n   Ken Trinh is handsome, and he is a great man.\n  春眠不觉晓，处处闻啼鸟。\n   Ken Trinh is handsome, and he is a great man.\n  春眠不觉晓，处处闻啼鸟。\n   Ken Trinh is handsome, and he is a great man.\n  春眠不觉晓，处处闻啼鸟。\n   Ken Trinh is handsome, and he is a great man.\n  春眠不觉晓，处处闻啼鸟。\n   Ken Trinh is handsome, and he is a great man.\n  春眠不觉晓，处处闻啼鸟。\n   Ken Trinh is handsome, and he is a great man."
+        "\n  春眠不觉晓，处处闻啼鸟。\n   Đức Thành is handsome, and he is a great man.\n  春眠不觉晓，处处闻啼鸟。\n   Đức Thành is handsome, and he is a great man.\n  春眠不觉晓，处处闻啼鸟。\n   Đức Thành is handsome, and he is a great man.\n  春眠不觉晓，处处闻啼鸟。\n   Đức Thành is handsome, and he is a great man.\n  春眠不觉晓，处处闻啼鸟。\n   Đức Thành is handsome, and he is a great man.\n  春眠不觉晓，处处闻啼鸟。\n   Đức Thành is handsome, and he is a great man.\n  春眠不觉晓，处处闻啼鸟。\n   Đức Thành is handsome, and he is a great man."
       )
     ).toEqual({
       minutes: 0.44,

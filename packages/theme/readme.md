@@ -5,7 +5,7 @@
 <h1 align="center">vuepress-theme-hope</h1>
 <h4 align="center">A vuepress theme with tons of features✨ / 一个具有强大功能的 vuepress 主题✨</h4>
 
-[![Author: Ken Trinh](https://img.shields.io/badge/作者-Ken Trinh-blue.svg?style=for-the-badge)](https://mrhope.site) [![License](https://img.shields.io/npm/l/vuepress-theme-hope.svg?style=for-the-badge)](https://github.com/Mister-Hope/vuepress-theme-hope/blob/v1/LICENSE)
+[![Author: Đức Thành](https://img.shields.io/badge/作者-Đức Thành-blue.svg?style=for-the-badge)](https://mrhope.site) [![License](https://img.shields.io/npm/l/vuepress-theme-hope.svg?style=for-the-badge)](https://github.com/Mister-Hope/vuepress-theme-hope/blob/v1/LICENSE)
 
 <!-- markdownlint-restore -->
 

@@ -30,9 +30,14 @@ export default Vue.extend({
       };
       const { bgImageStyle = {} } = this.$frontmatter;
 
+      const newStyle: Record<string, string> = {
+        color: "#e04887",
+      };
+
       return {
         ...defaultBgImageStyle,
         ...(bgImageStyle as Record<string, string>),
+        ...newStyle,
       };
     },
   },

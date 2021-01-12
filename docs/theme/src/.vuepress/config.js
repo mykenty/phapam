@@ -40,7 +40,7 @@ module.exports = config({
     logo: "/logo.svg",
     nav: navBarConfig.en,
     sidebar: sideBarConfig.en,
-    author: "Ken Trinh",
+    author: "Đức Thành",
     iconPrefix: "vuepress-",
 
     locales: {
@@ -62,7 +62,7 @@ module.exports = config({
 
     footer: {
       display: true,
-      copyright: "MIT Licensed | Copyright © 2019-present Ken Trinh",
+      copyright: "MIT Licensed | Copyright © 2019-present Đức Thành",
     },
     pwa: {
       favicon: "/favicon.ico",

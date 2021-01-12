@@ -6,11 +6,12 @@ breadcrumb: false
 footer: false
 pageInfo: false
 comment: true
+editLink: false
 ---
 
 # Chú Đại Bi
 
-### Thiên thủ thiên nhãn vô ngại đại bi tâm đà la ni
+### Thiên thủ thiên nhãn vô ngại đại bi tâm đà la ni <MyBadge text="biến đầu tiên đọc 3 lần" color="#f39c12" />
 
 ```md
 Nam mô hắc ra đát na đa ra dạ da
@@ -71,9 +72,30 @@ Ma ha tất đà dạ
 Ta bà ha
 Tất đà du nghệ
 Thất bàn ra dạ
-Ta bà ha 60. Na ra cẩn trì 61. Ta bà ha 62. Ma ra na ra 63. Ta bà ha 64. Tất ra tăng a mục khê da 65. Ta bà ha 66. Ta bà ma ha a tất đà dạ 67. Ta bà ha 68. Giả kiết ra a tất đà dạ 69. Ta bà ha 70. Ba đà ma kiết tất đà dạ 71. Ta bà ha 72. Na ra cẩn trì bàn đà ra dạ 73. Ta bà ha 74. Ma bà rị thắng yết ra dạ
-Ta bà ha 76. Nam mô hắc ra đát na đa ra dạ da
-Nam mô a rị da 78. Bà lô kiết đế 79. Thước bàn ra dạ 80. Ta bà ha 81. Án. Tất điện đô
-Mạn đà ra 83. Bạt đà gia
+Ta bà ha
+Na ra cẩn trì
+Ta bà ha
+Ma ra na ra
+Ta bà ha
+Tất ra tăng a mục khê da
+Ta bà ha
+Ta bà ma ha a tất đà dạ
+Ta bà ha
+Giả kiết ra a tất đà dạ
+Ta bà ha
+Ba đà ma kiết tất đà dạ
+Ta bà ha
+Na ra cẩn trì bàn đà ra dạ
+Ta bà ha
+Ma bà rị thắng yết ra dạ
+Ta bà ha
+Nam mô hắc ra đát na đa ra dạ da
+Nam mô a rị da
+Bà lô kiết đế
+Thước bàn ra dạ
+Ta bà ha
+Án. Tất điện đô (biến cuối cùng đọc từ đây 3 lần)
+Mạn đà ra
+Bạt đà gia
 Ta bà ha.
 ```

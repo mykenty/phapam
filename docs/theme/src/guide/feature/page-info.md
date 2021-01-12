@@ -48,7 +48,7 @@ By default it will display "Author, Visit Number, Writing Date, Category, Tags, 
 
   ```md
   ---
-  author: Ken Trinh
+  author: Đức Thành
   ---
   ```
 

@@ -14,7 +14,7 @@ module.exports = {
     ["link", { rel: "icon", href: "/favicon.ico" }],
 
     // 设置网站作者
-    ["meta", { name: "author", content: "Ken Trinh" }],
+    ["meta", { name: "author", content: "Đức Thành" }],
 
     // 移动端App体验
     [

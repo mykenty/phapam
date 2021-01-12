@@ -2,9 +2,9 @@
 blog: true
 home: true
 icon: home
-title: Ken Trinh
+title: A Di Đà Phật
 heroImage: /logo.svg
-heroText: Đức Thành
+heroText: A Di Đà Phật
 tagline: Phật pháp, tụng Kinh, trì Chú
 project:
   - type: project

@@ -30,12 +30,12 @@ module.exports = config({
       },
     ],
 
-    author: "Ken Trinh",
+    author: "Đức Thành",
     iconPrefix: "vuepress-",
 
     footer: {
       display: true,
-      copyright: "MIT Licensed | Copyright © 2019-present Ken Trinh",
+      copyright: "MIT Licensed | Copyright © 2019-present Đức Thành",
     },
 
     mdEnhance: {
@@ -48,23 +48,23 @@ module.exports = config({
       appKey: "M8y71yAlPuW2RQJ83r15qfk9",
     },
 
-    locales: {
-      "/zh/": {
-        nav: [
-          { text: "主页", icon: "home", link: "/zh/" },
-          {
-            text: "指南",
-            icon: "creative",
-            link: "/zh/guide/",
-          },
-          {
-            text: "配置",
-            icon: "config",
-            link: "/zh/config/",
-          },
-        ],
-      },
-    },
+    // locales: {
+    //   "/zh/": {
+    //     nav: [
+    //       { text: "主页", icon: "home", link: "/zh/" },
+    //       {
+    //         text: "指南",
+    //         icon: "creative",
+    //         link: "/zh/guide/",
+    //       },
+    //       {
+    //         text: "配置",
+    //         icon: "config",
+    //         link: "/zh/config/",
+    //       },
+    //     ],
+    //   },
+    // },
 
     pwa: {
       favicon: "/favicon.ico",

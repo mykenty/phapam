@@ -4,7 +4,7 @@ icon: discover
 category: demo
 ---
 
-## Ken Trinh’s Blog
+## Đức Thành’s Blog
 
 - [Link](https://mrhope.site)
 

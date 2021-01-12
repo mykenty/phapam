@@ -4,7 +4,7 @@ icon: page
 # This is the title of the article
 title: page config
 # Set author
-author: Ken Trinh
+author: Đức Thành
 # Set writing time
 time: 2020-01-01
 # A page can only have one category
@@ -21,7 +21,7 @@ footer: Footer content for test
 
 You can set page information in Markdown's Frontmatter.
 
-- The author is set to Ken Trinh.
+- The author is set to Đức Thành.
 
 - The writing time should be January 1, 2020
 

@@ -15,7 +15,7 @@ features:
     details: Create your flowchart in markdown
   - title: Tex Support
     details: Markdown now have Tex Support so you can write your formula
-footer: MIT Licensed | Copyright © 2019-present Ken Trinh
+footer: MIT Licensed | Copyright © 2019-present Đức Thành
 ---
 
 ### Install
