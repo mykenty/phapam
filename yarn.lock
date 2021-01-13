@@ -15336,10 +15336,10 @@ textlint-filter-rule-comments@1.2.2:
   resolved "https://registry.yarnpkg.com/textlint-filter-rule-comments/-/textlint-filter-rule-comments-1.2.2.tgz#3a72c494994e068e0e4aaad0f24ea7cfe338503a"
   integrity sha1-OnLElJlOBo4OSqrQ8k6nz+M4UDo=
 
-textlint-plugin-latex2e@1.0.5:
-  version "1.0.5"
-  resolved "https://registry.yarnpkg.com/textlint-plugin-latex2e/-/textlint-plugin-latex2e-1.0.5.tgz#40ed1791120832c6ba22dbb489e21ee7c4d0b554"
-  integrity sha512-bh3iEvoGWCFXgXEFCa0CJIZMcGQO6EPbE4PcNWVhiBFB0VxTuPIfZ+LHdd83DqhczvEIt3CxBzfJK8Tx/JxihQ==
+textlint-plugin-latex2e@1.0.6:
+  version "1.0.6"
+  resolved "https://registry.yarnpkg.com/textlint-plugin-latex2e/-/textlint-plugin-latex2e-1.0.6.tgz#5d7327fc7819ad2893c12c0a21bc8f2c53f61e1d"
+  integrity sha512-4YxrcM0CvDSAE3EK9BJTaB8EZa7iPKeRFYLrXpHTkvkmXPJOA+rZ6r3bBT9lRM5CgvDTJSaH4I0n6xIl3gqvRg==
   dependencies:
     "@textlint/ast-node-types" "^4.3.4"
     fp-ts "^2.8.3"
@@ -16692,10 +16692,8 @@ watchpack@^1.7.4:
   resolved "https://registry.yarnpkg.com/watchpack/-/watchpack-1.7.5.tgz#1267e6c55e0b9b5be44c2023aed5437a2c26c453"
   integrity sha512-9P3MWk6SrKjHsGkLT2KHXdQ/9SNkyoJbabxnKOoJepsvJjJG8uYTR3yTPxPQvNDI3w4Nz1xnE0TLHK4RIVe/MQ==
   dependencies:
-    chokidar "^3.4.1"
     graceful-fs "^4.1.2"
     neo-async "^2.5.0"
-    watchpack-chokidar2 "^2.0.1"
   optionalDependencies:
     chokidar "^3.4.1"
     watchpack-chokidar2 "^2.0.1"
