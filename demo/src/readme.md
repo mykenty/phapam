@@ -4,6 +4,11 @@ home: true
 icon: home
 title: A Di Đà Phật
 heroImage: /logo.svg
+bgImage: /assets/homeImage.jpg
+bgImageStyle:
+  color: "#e04787"
+  font-family: "Georgia Pro,Crimson,Georgia,-apple-system"
+  font-style: "italic"
 heroText: A Di Đà Phật
 tagline: Phật pháp, tụng Kinh, trì Chú
 project:

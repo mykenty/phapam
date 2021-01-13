@@ -3,6 +3,7 @@ home: true
 icon: home
 title: Project homepage demo
 heroImage: /logo.svg
+bgImage: /assets/homeImage.jpg
 heroText: Công phu
 tagline: You can place the description of the project here.
 action:

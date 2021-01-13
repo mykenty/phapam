@@ -3,7 +3,6 @@ const { config } = require("vuepress-theme-hope");
 module.exports = config({
   title: "Pháp Âm | Kinh Chú, Công phu online",
   description: "Website dành cho Phật Tử",
-
   dest: "../public",
 
   head: [
