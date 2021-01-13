@@ -1,6 +1,7 @@
 ---
-icon: baby
-category: Guide
+icon: page
+category: Kinh - Chú
+title: Chú Đại Bi
 backtotop: true
 breadcrumb: false
 footer: false

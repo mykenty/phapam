@@ -1,9 +1,15 @@
 ---
 icon: creative
-category: Guide
+category: Kinh - Chú
+backtotop: false
+breadcrumb: false
+footer: false
+pageInfo: false
+comment: true
+editLink: false
 ---
 
-# Guides
+# Kinh - Chú
 
 - [Page Config](page.md)
 

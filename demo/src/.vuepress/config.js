@@ -4,7 +4,7 @@ module.exports = config({
   title: "Pháp Âm | Kinh Chú, Công phu online",
   description: "Website dành cho Phật Tử",
 
-  dest: "./dist",
+  dest: "../public",
 
   head: [
     [
@@ -41,7 +41,7 @@ module.exports = config({
       { text: "Công phu", link: "/home/", icon: "context" },
       {
         text: "Kinh - Chú",
-        link: "/guide/",
+        link: "/kinh-chu/",
         icon: "note",
       },
       {
@@ -57,15 +57,16 @@ module.exports = config({
         "home",
         "slides",
         {
-          title: "Guide",
+          title: "Kinh - Chú",
           icon: "creative",
-          prefix: "guide/",
+          prefix: "kinh-chu/",
           children: [
             "",
+            "chu-dai-bi",
             "dai-bi-thap-chu",
-            "page",
+            "kinh-phat-danh-ton-thang",
             "markdown",
-            "disable",
+            "kinh-xa-loi",
             "encrypt",
           ],
         },
@@ -133,7 +134,7 @@ module.exports = config({
 
     footer: {
       display: true,
-      content: "默认页脚",
+      content: "A Di Đà Phật",
     },
 
     mdEnhance: {
@@ -212,9 +213,9 @@ module.exports = config({
       },
     },
 
-    lastUpdate: {
-      timezone: "Asia/Shanghai",
-    },
+    // lastUpdate: {
+    //   timezone: "Asia/Ho_Chi_Minh",
+    // },
 
     // repo: "https://github.com/mister-hope/vuepress-theme-hope",
     // repoLabel: "Github",

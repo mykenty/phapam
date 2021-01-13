@@ -1,7 +1,7 @@
 ---
 icon: markdown
 title: Markdown Enhance
-category: Guide
+category: Kinh - Chú
 tag:
   - markdown
 ---

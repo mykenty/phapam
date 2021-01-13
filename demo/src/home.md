@@ -6,14 +6,14 @@ heroImage: /logo.svg
 heroText: Công phu
 tagline: You can place the description of the project here.
 action:
-  - text: How to Use
-    link: /guide/
+  - text: Thời khoá công phu
+    link: /cong-phu/
 
-  - text: Blog homepage
-    link: /
+  - text: Video công phu
+    link: /video/
 
 features:
-  - title: Pageviews and comments
+  - title: Công phu chiều - Kinh Di Đà
     details: Start pageview statistics and comment support with Valine and Vssue
     link: https://vuepress-theme.mrhope.site/guide/feature/comment/
 

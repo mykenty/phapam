@@ -1,14 +1,16 @@
 ---
-icon: set
-category: Guide
-backtotop: false
+icon: page
+category: Kinh - Chú
+title: Kinh Xá Lợi
+backtotop: true
 breadcrumb: false
 footer: false
 pageInfo: false
-comment: false
+comment: true
+editLink: false
 ---
 
-# Component disabled
+# Kinh Nhất Thiết Như Lai Tâm Bí Mật Toàn Thân Xá Lợi Bảo Khiếp Ấn Đà Ra Ni
 
 You can disable some functions on the page by setting the Frontmatter of the page.
 

@@ -48,7 +48,7 @@ The `themeConfig.lastUpdated` option allows you to get the UNIX timestamp(ms) of
 ```js
 module.exports = {
   themeConfig: {
-    lastUpdated: "Last Updated", // string | boolean
+    lastUpdated: false, // string | boolean "Last Updated"
   },
 };
 ```

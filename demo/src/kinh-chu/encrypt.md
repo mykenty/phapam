@@ -1,7 +1,7 @@
 ---
 icon: command
 password: 1234
-category: Guide
+category: Kinh - Chú
 tag:
   - encryption
 ---
