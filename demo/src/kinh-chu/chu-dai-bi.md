@@ -100,3 +100,11 @@ Mạn đà ra
 Bạt đà gia
 Ta bà ha.
 ```
+
+::: tip
+Đức Quán Thế Âm sau khi thuyết thần Chú Đại Bi này, thì tự nhiên trên trời (thiên không) mưa hoa quý xuống, vũ trụ vang động, bởi pháp lực của thần chú chuyển động, giống như: Sức mạnh của hỏa sơn phun lửa, trái đất lay chuyển, gây nên những tiếng nổ như sức mạnh của điện âm dương gây ra lôi chấn.
+
+Chư Phật đều hoan hỷ, ma vương kinh sợ. Tất cả chúng sinh đều được chứng quả thánh và phát Bồ-đề tâm.
+
+Trong bản “Đại Bi Sám Hiện Tướng“, cả 84 câu của Chú Đại Bi, với mỗi câu, Tổ xưa đều họa tượng trưng ra mỗi thần biến: hoặc hình Phật, hình Bồ Tát, hình các Thánh Nhị thừa, hoặc hình của các vị trời: Phạm Vương, Đế Thích hoặc hình của các thần, tướng Kim Cang…Tất cả đều từ nơi Thánh trí; lòng đại bi của đức Quán Thế Âm Bồ Tát hóa hiện ra bằng cách đại tự tại, để phổ độ cho chúng sinh. Ai cũng sẽ được chứng nghiệm và gia hộ nếu chí tâm trì tụng.
+:::

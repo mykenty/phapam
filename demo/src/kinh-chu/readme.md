@@ -11,10 +11,6 @@ editLink: false
 
 # Kinh - Chú
 
-- [Page Config](page.md)
+- [Đại Bi Thập Chú](dai-bi-thap-chu)
 
-- [Markdown Enhance](markdown.md)
-
-- [Function Disable](disable.md)
-
-- [Encryption Demo](encrypt.md)
+- [Chú Đại Bi](chu-dai-bi)

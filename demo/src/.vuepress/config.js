@@ -46,7 +46,7 @@ module.exports = config({
       {
         text: "Video",
         icon: "app",
-        link: "/video",
+        link: "/video/",
       },
     ],
 
