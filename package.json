@@ -44,11 +44,6 @@
     "ts:build": "tsc --build",
     "ts:watch": "tsc --build --watch"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged && yarn run build"
-    }
-  },
   "lint-staged": {
     "*.vue": [
       "eslint --fix",
