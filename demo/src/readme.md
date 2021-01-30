@@ -18,7 +18,7 @@ project:
     link: your project link
 
   - type: link
-    name: Người Phật tử
+    name: Phật Tử
     desc: link detailed description
     link: link address
 
