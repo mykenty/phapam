@@ -7,7 +7,7 @@ lib/
 # VuePress Output
 dist/
 
-public/
+/public/
 
 # VS Code Config file
 .vscode/
