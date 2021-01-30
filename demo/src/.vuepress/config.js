@@ -37,6 +37,7 @@ module.exports = config({
 
     nav: [
       { text: "Trang chủ", link: "/", icon: "home" },
+      { text: "Phật tử", link: "/phat-tu/", icon: "context" },
       { text: "Công phu", link: "/home/", icon: "context" },
       {
         text: "Kinh - Chú",
@@ -64,9 +65,19 @@ module.exports = config({
             "chu-dai-bi",
             "dai-bi-thap-chu",
             "kinh-phat-danh-ton-thang",
-            "markdown",
             "kinh-xa-loi",
-            "encrypt",
+          ],
+        },
+        {
+          title: "Phật Tử",
+          icon: "creative",
+          prefix: "phat-tu/",
+          children: [
+            "",
+            "chu-dai-bi",
+            "dai-bi-thap-chu",
+            "kinh-phat-danh-ton-thang",
+            "kinh-xa-loi",
           ],
         },
       ],
