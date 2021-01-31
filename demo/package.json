@@ -6,10 +6,10 @@
   "license": "MIT",
   "author": "A Di Đà Phật",
   "scripts": {
-    "build": "vuepress build src",
+    "build": "vuepress build src --no-cache",
     "clean-serve": "vuepress dev src --no-cache",
     "eject": "vuepress eject-hope src",
-    "serve": "vuepress dev src"
+    "serve": "vuepress dev src --no-cache"
   },
   "dependencies": {
     "vuepress-plugin-font-awesome": "^1.90.6"
