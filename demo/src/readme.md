@@ -12,25 +12,25 @@ bgImageStyle:
 heroText: A Di Đà Phật
 tagline: Phật pháp, tụng Kinh, trì Chú
 project:
+  - type: link
+    name: Người Phật Tử
+    desc: Câu chuyện cuộc sống Phật Tử thuận thành
+    link: /phat-tu/
+
   - type: project
     name: Kinh - Chú
-    desc: project detailed description
-    link: your project link
-
-  - type: link
-    name: Phật Tử
-    desc: link detailed description
-    link: link address
-
-  - type: book
-    name: Video công phu
-    desc: Detailed description of the book
-    link: link to your book
+    desc: Tổng hợp kinh, chú online
+    link: /kinh-chu/
 
   - type: article
-    name: Chuyện Phật pháp
-    desc: Detailed description of the article
-    link: link to your article
+    name: Công phu
+    desc: Hướng dẫn công phu hiệu quả
+    link: /cong-phu/
+
+  - type: book
+    name: Video
+    desc: Các video công phu cùng quý thầy, đạo tràng
+    link: /video/
 
 footer: Website dành cho Phật Tử
 ---

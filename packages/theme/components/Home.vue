@@ -64,6 +64,12 @@
           @click="feature.link ? navigate(feature.link) : ''"
         >
           <h2>{{ feature.title }}</h2>
+          <p v-if="$feature.thumbnail">
+            <img
+              :src="$withBase($feature.thumbnail)"
+              :alt="$feature.title || ''"
+            />
+          </p>
           <p>{{ feature.details }}</p>
         </div>
       </div>

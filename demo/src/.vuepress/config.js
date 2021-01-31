@@ -1,7 +1,7 @@
 const { config } = require("vuepress-theme-hope");
 
 module.exports = config({
-  title: "Pháp Âm | Kinh Chú, Công phu online",
+  title: "Pháp Âm cho người Phật Tử",
   description: "Website dành cho Phật Tử",
   dest: "../public",
 
@@ -37,8 +37,8 @@ module.exports = config({
 
     nav: [
       { text: "Trang chủ", link: "/", icon: "home" },
-      { text: "Phật tử", link: "/phat-tu/", icon: "context" },
-      { text: "Công phu", link: "/home/", icon: "context" },
+      { text: "Phật tử", link: "/phat-tu/", icon: "people" },
+      { text: "Công phu", link: "/cong-phu/", icon: "context" },
       {
         text: "Kinh - Chú",
         link: "/kinh-chu/",
@@ -46,7 +46,7 @@ module.exports = config({
       },
       {
         text: "Video",
-        icon: "app",
+        icon: "load",
         link: "/video/",
       },
     ],
@@ -55,7 +55,6 @@ module.exports = config({
       "/": [
         "",
         "home",
-        "slides",
         {
           title: "Kinh - Chú",
           icon: "creative",
@@ -74,10 +73,9 @@ module.exports = config({
           prefix: "phat-tu/",
           children: [
             "",
-            "chu-dai-bi",
-            "dai-bi-thap-chu",
-            "kinh-phat-danh-ton-thang",
-            "kinh-xa-loi",
+            "cach-giai-tru-oan-gia-trai-chu",
+            "ly-do-that-bai-thuong-gap-trong-an-chay",
+            "5-luu-y-khi-hanh-thien",
           ],
         },
       ],
@@ -125,7 +123,6 @@ module.exports = config({
     author: "Đức Thành",
 
     blog: {
-      intro: "/intro/",
       sidebarDisplay: "mobile",
       links: {
         Github: "https://github.com",
@@ -134,6 +131,7 @@ module.exports = config({
 
     comment: {
       type: "valine",
+      baseLang: "vi-VN",
       appId: "msnseO76haIVIGvfJ10BKnpv-gzGzoHsz",
       appKey: "9QMulKhu7EDp1va0TYXR2PrI",
     },
@@ -166,6 +164,7 @@ module.exports = config({
     pwa: {
       favicon: "/favicon.ico",
       cachePic: true,
+      cacheHTML: false,
       apple: {
         icon: "/assets/icon/apple-icon-152.png",
         statusBarColor: "black",
