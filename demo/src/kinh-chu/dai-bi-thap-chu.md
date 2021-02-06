@@ -10,7 +10,7 @@ comment: true
 editLink: false
 ---
 
-# Đại Bi Thập Chú
+# {{ $frontmatter.title }}
 
 ::: center
 

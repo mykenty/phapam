@@ -1,6 +1,6 @@
 ---
 icon: page
-title: Kinh Phật Đảnh Tôn Thắng
+title: Kinh Phật Đảnh Tôn Thắng Đà Ra Ni
 category: Kinh - Chú
 tag:
   - Xá Lợi
@@ -14,7 +14,7 @@ comment: true
 editLink: false
 ---
 
-# Kinh Phật Đảnh Tôn Thắng Đà Ra Ni
+# {{ $frontmatter.title }}
 
 1- Na mô ba ga pha tê
 
