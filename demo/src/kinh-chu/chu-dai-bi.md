@@ -8,11 +8,12 @@ footer: false
 pageInfo: false
 comment: true
 editLink: false
+description: Thiên thủ thiên nhãn vô ngại đại bi tâm đà la ni
 ---
 
-# Chú Đại Bi
+# {{ $frontmatter.title }}
 
-### Thiên thủ thiên nhãn vô ngại đại bi tâm đà la ni <MyBadge text="biến đầu tiên đọc 3 lần" color="#f39c12" />
+### {{ $frontmatter.description }} <MyBadge text="biến đầu tiên đọc 3 lần" color="#f39c12" />
 
 ```md
 Nam mô hắc ra đát na đa ra dạ da
