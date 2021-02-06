@@ -6824,6 +6824,11 @@ eslint@7.18.0:
     text-table "^0.2.0"
     v8-compile-cache "^2.0.3"
 
+esm@^3.2.25:
+  version "3.2.25"
+  resolved "https://registry.yarnpkg.com/esm/-/esm-3.2.25.tgz#342c18c29d56157688ba5ce31f8431fbb795cc10"
+  integrity sha512-U1suiZ2oDVWv4zPO56S0NcR5QriEahGtdN2OR6FiOG4WJvcjBVFB0qI4+eKoWFH483PKGuLuu6V8Z4T5g63UVA==
+
 espree@^6.2.1:
   version "6.2.1"
   resolved "https://registry.yarnpkg.com/espree/-/espree-6.2.1.tgz#77fc72e1fd744a2052c20f38a5b575832e82734a"
@@ -9879,10 +9884,10 @@ latest-version@^5.0.0:
   dependencies:
     package-json "^6.3.0"
 
-latex-utensils@^2.0.3:
-  version "2.3.0"
-  resolved "https://registry.yarnpkg.com/latex-utensils/-/latex-utensils-2.3.0.tgz#5706226d78f46b9aa10de35779f438525f17812f"
-  integrity sha512-Ozel0OWxcLAGcD5maaeywZJVfS6wyD8Fah13ZpicOaJ2scSniK8ciAAPTdPjtmDOeE5jSuvOAGkRWBn203BqrA==
+latex-utensils@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/latex-utensils/-/latex-utensils-3.0.0.tgz#7e4f0c56ab7d1a14c47e7a9f441ad571ef9a7448"
+  integrity sha512-IhjvVxOPBgSSg1qkS4ytM4wrnwK3sQFR0WGfU2zB18zAcjs7/8cRMfrIDNjugiskoID8HiQlOQR8SnbKQ2owYg==
   optionalDependencies:
     commander "^2.20.0"
     pegjs-backtrace "^0.2.0"
@@ -15375,14 +15380,14 @@ textlint-filter-rule-comments@1.2.2:
   resolved "https://registry.yarnpkg.com/textlint-filter-rule-comments/-/textlint-filter-rule-comments-1.2.2.tgz#3a72c494994e068e0e4aaad0f24ea7cfe338503a"
   integrity sha1-OnLElJlOBo4OSqrQ8k6nz+M4UDo=
 
-textlint-plugin-latex2e@1.0.6:
-  version "1.0.6"
-  resolved "https://registry.yarnpkg.com/textlint-plugin-latex2e/-/textlint-plugin-latex2e-1.0.6.tgz#5d7327fc7819ad2893c12c0a21bc8f2c53f61e1d"
-  integrity sha512-4YxrcM0CvDSAE3EK9BJTaB8EZa7iPKeRFYLrXpHTkvkmXPJOA+rZ6r3bBT9lRM5CgvDTJSaH4I0n6xIl3gqvRg==
+textlint-plugin-latex2e@1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/textlint-plugin-latex2e/-/textlint-plugin-latex2e-1.1.0.tgz#ae481d2cd59545fed1955e81691dad887d241c0a"
+  integrity sha512-n3j6I3C9pFB6pGo0FLAIuwL/S0zVzVfJcS1y2NA3IQoOGanIjFe01eM3t7s5aK8ola2By/qg0f2eFDtmSNsDIw==
   dependencies:
     "@textlint/ast-node-types" "^4.3.4"
     fp-ts "^2.8.3"
-    latex-utensils "^2.0.3"
+    latex-utensils "^3.0.0"
 
 textlint-rule-apostrophe@2.0.0:
   version "2.0.0"
@@ -16651,6 +16656,11 @@ vuepress-plugin-named-chunks@^1.1.4:
   version "1.1.4"
   resolved "https://registry.yarnpkg.com/vuepress-plugin-named-chunks/-/vuepress-plugin-named-chunks-1.1.4.tgz#c65e121a8d0bbb4201766ec06816a2aa67dae3b7"
   integrity sha512-zCRVmbf10VAf8NcrVLlm1b6eGU3vkc/iLVNvpIL3sBvtCCVaZheT2OlaV0CMPE6OjjTYbMrYXjugu4vcpiXrNQ==
+
+vuepress-plugin-seo@^0.1.4:
+  version "0.1.4"
+  resolved "https://registry.yarnpkg.com/vuepress-plugin-seo/-/vuepress-plugin-seo-0.1.4.tgz#be8e5577491c1fc317a7ad4abe3ae51ff317be1e"
+  integrity sha512-foNKrAAKihiC47bx0UXFzs/+BIFmnowTQsLVF/8pfsnsPDp8FXjkTGyjxyjOhbwj7ADPv32CdX3pEoYGnZ7OjA==
 
 vuepress-plugin-sitemap@^2.3.1:
   version "2.3.1"
