@@ -1,3 +1,14 @@
+body {
+  font-family: Roboto, "Helvetica Neue", Helvetica, sans-serif !important;
+}
+
+.line-number,
+code,
+kbd {
+  font-size: 0.9em !important;
+  line-height: 1.8;
+}
+
 .home .features .feature {
   padding: 0 1rem !important;
   flex-basis: calc(33% - 4rem) !important;
