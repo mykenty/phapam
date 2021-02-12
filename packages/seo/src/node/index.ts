@@ -79,7 +79,7 @@ export = (options: SeoOptions, context: Context): PluginOptionAPI => {
           black.bgRed("error"),
           "robots.txt seems invalid!"
         );
-      else userRobotsTxT += "\nUser-agent:*\nDisallow:\n";
+      else userRobotsTxT += "";
 
       await writeFile(resolve(context.outDir, "./robots.txt"), userRobotsTxT, {
         flag: "w",

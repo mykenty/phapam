@@ -21,7 +21,7 @@
   "author": {
     "name": "A Di Đà Phật",
     "email": "trinhkhoa@gmail.com",
-    "url": "http://www.phapam.net"
+    "url": "http://www.phapam.net/"
   },
   "main": "index.js",
   "types": "types/index.d.ts",
