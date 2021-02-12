@@ -4,7 +4,6 @@ module.exports = config({
   title: "Pháp Âm cho người Phật Tử",
   description: "Website dành cho Phật Tử",
   dest: "../public",
-
   head: [
     [
       "script",
@@ -24,17 +23,17 @@ module.exports = config({
     ],
   ],
 
-  // locales: {
-  //   "/zh/": {
-  //     title: "Pháp Âm | Kinh Chú, Công phu online",
-  //     description: "vuepress-theme-hope 的 demo",
-  //   },
-  // },
+  locales: {
+    // "/zh/": {
+    //   title: "Pháp Âm | Kinh Chú, Công phu online",
+    //   description: "vuepress-theme-hope 的 demo",
+    // },
+  },
 
   themeConfig: {
     logo: "/logo.svg",
-    hostname: "http://www.phamam.net",
-
+    hostname: "http://www.phapam.net/",
+    pure: true,
     nav: [
       { text: "Trang chủ", link: "/", icon: "home" },
       { text: "Phật tử", link: "/phat-tu/", icon: "people" },
@@ -158,7 +157,7 @@ module.exports = config({
           audio: true,
           chalkboard: true,
           sitemap: {
-            hostname: "http://www.phapam.net",
+            hostname: "http://www.phapam.net/",
           },
           "vuepress-plugin-seo": {
             siteTitle: (_, $site) => $site.title,

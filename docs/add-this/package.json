@@ -7,7 +7,7 @@
   "author": {
     "name": "Đức Thành",
     "email": "trinhkhoa@gmail.com",
-    "url": "https://phapam.net"
+    "url": "https://phapam.net/"
   },
   "scripts": {
     "build": "vuepress build src",
