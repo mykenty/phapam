@@ -75,49 +75,50 @@ module.exports = config({
             "cach-giai-tru-oan-gia-trai-chu",
             "ly-do-that-bai-thuong-gap-trong-an-chay",
             "5-luu-y-khi-hanh-thien",
+            "nguoi-nu-kinh-nguyet",
           ],
         },
       ],
     },
 
-    // locales: {
-    //   "/zh/": {
-    //     nav: [
-    //       { text: "博客主页", link: "/zh/", icon: "home" },
-    //       { text: "项目主页", link: "/zh/home/", icon: "home" },
-    //       {
-    //         text: "如何使用",
-    //         icon: "creative",
-    //         link: "/zh/guide/",
-    //       },
-    //       {
-    //         text: "主题文档",
-    //         icon: "note",
-    //         link: "https://vuepress-theme.mrhope.site/zh/",
-    //       },
-    //     ],
-    //     sidebar: {
-    //       "/zh/": [
-    //         "",
-    //         "home",
-    //         "slides",
-    //         {
-    //           title: "如何使用",
-    //           icon: "creative",
-    //           prefix: "guide/",
-    //           children: [
-    //             "",
-    //             "dai-bi-thap-chu",
-    //             "page",
-    //             "markdown",
-    //             "disable",
-    //             "encrypt",
-    //           ],
-    //         },
-    //       ],
-    //     },
-    //   },
-    // },
+    locales: {
+      //   "/zh/": {
+      //     nav: [
+      //       { text: "博客主页", link: "/zh/", icon: "home" },
+      //       { text: "项目主页", link: "/zh/home/", icon: "home" },
+      //       {
+      //         text: "如何使用",
+      //         icon: "creative",
+      //         link: "/zh/guide/",
+      //       },
+      //       {
+      //         text: "主题文档",
+      //         icon: "note",
+      //         link: "https://vuepress-theme.mrhope.site/zh/",
+      //       },
+      //     ],
+      //     sidebar: {
+      //       "/zh/": [
+      //         "",
+      //         "home",
+      //         "slides",
+      //         {
+      //           title: "如何使用",
+      //           icon: "creative",
+      //           prefix: "guide/",
+      //           children: [
+      //             "",
+      //             "dai-bi-thap-chu",
+      //             "page",
+      //             "markdown",
+      //             "disable",
+      //             "encrypt",
+      //           ],
+      //         },
+      //       ],
+      //     },
+      //   },
+    },
 
     author: "Đức Thành",
 
@@ -145,7 +146,7 @@ module.exports = config({
     },
 
     mdEnhance: {
-      enableAll: true,
+      enableAll: false,
       presentation: {
         plugins: {
           highlight: true,
@@ -156,33 +157,6 @@ module.exports = config({
           anything: true,
           audio: true,
           chalkboard: true,
-          sitemap: {
-            hostname: "http://www.phapam.net/",
-          },
-          "vuepress-plugin-seo": {
-            siteTitle: (_, $site) => $site.title,
-            title: ($page) => $page.title,
-            description: ($page) => $page.frontmatter.description,
-            author: (_, $site) => $site.themeConfig.author,
-            tags: ($page) => $page.frontmatter.tags,
-            twitterCard: (_) => "summary_large_image",
-            type: ($page) =>
-              ["articles", "posts", "blog"].some((folder) =>
-                $page.regularPath.startsWith("/" + folder)
-              )
-                ? "article"
-                : "website",
-            url: (_, $site, path) => ($site.themeConfig.domain || "") + path,
-            image: ($page, $site) =>
-              $page.frontmatter.image &&
-              (($site.themeConfig.domain &&
-                !$page.frontmatter.image.startsWith("http")) ||
-                "") + $page.frontmatter.image,
-            publishedAt: ($page) =>
-              $page.frontmatter.date && new Date($page.frontmatter.date),
-            modifiedAt: ($page) =>
-              $page.lastUpdated && new Date($page.lastUpdated),
-          },
         },
       },
     },
@@ -247,7 +221,6 @@ module.exports = config({
         ],
       },
     },
-
     // lastUpdate: {
     //   timezone: "Asia/Ho_Chi_Minh",
     // },

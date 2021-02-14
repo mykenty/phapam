@@ -27,4 +27,9 @@ features:
     details: Thiền đối với những ai đã tiếp xúc ít nhiều chắc hẳn đều để lại những dấu ấn không thể lẫn đi đâu được. Đó là khi con người ta cảm nhận được sự nhẹ nhõm nơi tâm mình mà trước nay chúng ta hiếm khi có được.
     thumbnail: /assets/lay-phat.jpg
     link: /phat-tu/5-luu-y-khi-hanh-thien
+
+  - title: Người nữ có thể tụng kinh, niệm Phật, lễ Phật vào những ngày có kinh nguyệt hay không?
+    details: Ngoại đạo chẳng hiểu lý, cố chấp vào một pháp cung kính, chẳng biết căn cứ vào sự để luận lý, đến nỗi những bà cụ niệm Phật coi sanh nở là chuyện đáng sợ, dẫu là con gái ruột, con dâu cũng chẳng dám nhìn đến, huống là dám dạy họ niệm Quán Âm ư?
+    thumbnail: /assets/lay-phat.jpg
+    link: /phat-tu/nguoi-nu-kinh-nguyet
 ---

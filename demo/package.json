@@ -6,7 +6,7 @@
   "license": "MIT",
   "author": "A Di Đà Phật",
   "scripts": {
-    "build": "vuepress build src --no-cache",
+    "build": "vuepress build src --no-cache && cp ./src/.vuepress/public/robots.txt ../public/robots.txt",
     "clean-serve": "vuepress dev src --no-cache",
     "eject": "vuepress eject-hope src",
     "serve": "vuepress dev src --no-cache"
@@ -18,7 +18,6 @@
   },
   "devDependencies": {
     "vuepress": "1.8.0",
-    "vuepress-plugin-seo": "^0.1.4",
     "vuepress-theme-hope": "^1.8.1"
   }
 }

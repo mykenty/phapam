@@ -1,2 +1,4 @@
-User-agent: *
+User-agent:*
 Allow: /
+
+Sitemap: https//www.phapam.net/sitemap.xml
