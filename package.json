@@ -98,7 +98,7 @@
     "@types/jest": "26.0.20",
     "@types/semver": "7.3.4",
     "@typescript-eslint/eslint-plugin": "4.14.2",
-    "@typescript-eslint/parser": "4.14.1",
+    "@typescript-eslint/parser": "4.15.1",
     "@vue/eslint-config-prettier": "6.0.0",
     "@vue/eslint-config-typescript": "7.0.0",
     "chalk": "4.1.0",
@@ -110,7 +110,7 @@
     "eslint-config-prettier": "7.2.0",
     "eslint": "7.20.0",
     "eslint-plugin-prettier": "3.3.1",
-    "eslint-plugin-vue": "7.5.0",
+    "eslint-plugin-vue": "7.6.0",
     "execa": "5.0.0",
     "husky": "5.0.9",
     "inquirer": "7.3.3",
@@ -140,9 +140,9 @@
     "textlint-rule-terminology": "2.1.5",
     "textlint-rule-write-good": "1.6.2",
     "textlint-rule-zh-half-and-full-width-bracket": "1.1.0",
-    "ts-jest": "26.4.4",
+    "ts-jest": "26.5.1",
     "ts-node": "9.1.1",
-    "typescript": "4.1.3"
+    "typescript": "4.1.5"
   },
   "textlint": {
     "rules": {
