@@ -15,7 +15,7 @@ jobs:
           persist-credentials: false
 
       - name: restore lerna
-        uses: actions/cache@v2
+        uses: actions/cache@v2.1.4
         id: lerna-cache
         with:
           path: |
@@ -30,7 +30,7 @@ jobs:
 
       - name: yarn-cache
         if: steps.lerna-cache.outputs.cache-hit != 'true'
-        uses: actions/cache@v2
+        uses: actions/cache@v2.1.4
         id: yarn-cache
         with:
           path: ${{ steps.yarn-cache-dir-path.outputs.dir }}
@@ -65,7 +65,7 @@ jobs:
           persist-credentials: false
 
       - name: restore lerna
-        uses: actions/cache@v2
+        uses: actions/cache@v2.1.4
         id: lerna-cache
         with:
           path: |
@@ -80,7 +80,7 @@ jobs:
 
       - name: yarn-cache
         if: steps.lerna-cache.outputs.cache-hit != 'true'
-        uses: actions/cache@v2
+        uses: actions/cache@v2.1.4
         id: yarn-cache
         with:
           path: ${{ steps.yarn-cache-dir-path.outputs.dir }}
@@ -116,7 +116,7 @@ jobs:
           persist-credentials: false
 
       - name: restore lerna
-        uses: actions/cache@v2
+        uses: actions/cache@v2.1.4
         id: lerna-cache
         with:
           path: |
@@ -131,7 +131,7 @@ jobs:
 
       - name: yarn-cache
         if: steps.lerna-cache.outputs.cache-hit != 'true'
-        uses: actions/cache@v2
+        uses: actions/cache@v2.1.4
         id: yarn-cache
         with:
           path: ${{ steps.yarn-cache-dir-path.outputs.dir }}
@@ -167,7 +167,7 @@ jobs:
           persist-credentials: false
 
       - name: restore lerna
-        uses: actions/cache@v2
+        uses: actions/cache@v2.1.4
         id: lerna-cache
         with:
           path: |
@@ -182,7 +182,7 @@ jobs:
 
       - name: yarn-cache
         if: steps.lerna-cache.outputs.cache-hit != 'true'
-        uses: actions/cache@v2
+        uses: actions/cache@v2.1.4
         id: yarn-cache
         with:
           path: ${{ steps.yarn-cache-dir-path.outputs.dir }}
@@ -218,7 +218,7 @@ jobs:
           persist-credentials: false
 
       - name: restore lerna
-        uses: actions/cache@v2
+        uses: actions/cache@v2.1.4
         id: lerna-cache
         with:
           path: |
@@ -233,7 +233,7 @@ jobs:
 
       - name: yarn-cache
         if: steps.lerna-cache.outputs.cache-hit != 'true'
-        uses: actions/cache@v2
+        uses: actions/cache@v2.1.4
         id: yarn-cache
         with:
           path: ${{ steps.yarn-cache-dir-path.outputs.dir }}
@@ -269,7 +269,7 @@ jobs:
           persist-credentials: false
 
       - name: restore lerna
-        uses: actions/cache@v2
+        uses: actions/cache@v2.1.4
         id: lerna-cache
         with:
           path: |
@@ -284,7 +284,7 @@ jobs:
 
       - name: yarn-cache
         if: steps.lerna-cache.outputs.cache-hit != 'true'
-        uses: actions/cache@v2
+        uses: actions/cache@v2.1.4
         id: yarn-cache
         with:
           path: ${{ steps.yarn-cache-dir-path.outputs.dir }}
@@ -320,7 +320,7 @@ jobs:
           persist-credentials: false
 
       - name: restore lerna
-        uses: actions/cache@v2
+        uses: actions/cache@v2.1.4
         id: lerna-cache
         with:
           path: |
@@ -335,7 +335,7 @@ jobs:
 
       - name: yarn-cache
         if: steps.lerna-cache.outputs.cache-hit != 'true'
-        uses: actions/cache@v2
+        uses: actions/cache@v2.1.4
         id: yarn-cache
         with:
           path: ${{ steps.yarn-cache-dir-path.outputs.dir }}
@@ -371,7 +371,7 @@ jobs:
           persist-credentials: false
 
       - name: restore lerna
-        uses: actions/cache@v2
+        uses: actions/cache@v2.1.4
         id: lerna-cache
         with:
           path: |
@@ -386,7 +386,7 @@ jobs:
 
       - name: yarn-cache
         if: steps.lerna-cache.outputs.cache-hit != 'true'
-        uses: actions/cache@v2
+        uses: actions/cache@v2.1.4
         id: yarn-cache
         with:
           path: ${{ steps.yarn-cache-dir-path.outputs.dir }}
@@ -422,7 +422,7 @@ jobs:
           persist-credentials: false
 
       - name: restore lerna
-        uses: actions/cache@v2
+        uses: actions/cache@v2.1.4
         id: lerna-cache
         with:
           path: |
@@ -437,7 +437,7 @@ jobs:
 
       - name: yarn-cache
         if: steps.lerna-cache.outputs.cache-hit != 'true'
-        uses: actions/cache@v2
+        uses: actions/cache@v2.1.4
         id: yarn-cache
         with:
           path: ${{ steps.yarn-cache-dir-path.outputs.dir }}
@@ -473,7 +473,7 @@ jobs:
           persist-credentials: false
 
       - name: restore lerna
-        uses: actions/cache@v2
+        uses: actions/cache@v2.1.4
         id: lerna-cache
         with:
           path: |
@@ -488,7 +488,7 @@ jobs:
 
       - name: yarn-cache
         if: steps.lerna-cache.outputs.cache-hit != 'true'
-        uses: actions/cache@v2
+        uses: actions/cache@v2.1.4
         id: yarn-cache
         with:
           path: ${{ steps.yarn-cache-dir-path.outputs.dir }}
@@ -524,7 +524,7 @@ jobs:
           persist-credentials: false
 
       - name: restore lerna
-        uses: actions/cache@v2
+        uses: actions/cache@v2.1.4
         id: lerna-cache
         with:
           path: |
@@ -539,7 +539,7 @@ jobs:
 
       - name: yarn-cache
         if: steps.lerna-cache.outputs.cache-hit != 'true'
-        uses: actions/cache@v2
+        uses: actions/cache@v2.1.4
         id: yarn-cache
         with:
           path: ${{ steps.yarn-cache-dir-path.outputs.dir }}
